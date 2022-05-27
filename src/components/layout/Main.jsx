@@ -13,9 +13,12 @@ class Main extends React.Component {
     }
 
     fetchFunction (title,type) {
-        fetch(`http://www.omdbapi.com/?apikey=85096689&s=${title}&type=${type}`)
+        fetch(`https://www.omdbapi.com/?apikey=85096689&s=${title}&type=${type}`)
             .then(response => response.json())
             .then(data => this.setState({movies: data.Search}))
+            .catch((error) => {
+                console.log(error.type)
+            })
     }
 
     searchMovies = (data,type) => {

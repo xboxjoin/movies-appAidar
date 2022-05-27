@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="footer-copyright">
             <div className="container ">
             © {new Date().getFullYear()} Aidar
-            <a className="grey-text text-lighten-4 right " href="#!">Github</a>
+            <a className="grey-text text-lighten-4 right " href="https://github.com/xboxjoin?tab=repositories">Github</a>
             </div>
           </div>
         </footer>
