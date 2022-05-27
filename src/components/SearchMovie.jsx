@@ -17,7 +17,9 @@ class SearchMovie extends React.Component {
     }
 
     handleyKey = (evt) => {
-        this.handleSearch();
+        if(evt.key === 'Enter'){
+            this.handleSearch();
+        }
     }
 
     handleChangeType = (evt) => {
@@ -28,7 +30,7 @@ class SearchMovie extends React.Component {
         return <div className ='search'>
                 <div className="row" style = {{display: 'flex', alignItems: 'center', margin: '0px'}}>
                     <div className="input-field col s6" style = {{width: '90%', margin: '0px', marginBottom: '0px'}}>
-                        <input placeholder = "Нужно ввести название"onKeyDown={this.handleyKey} style = {{margin: '0px', padding: '0px', marginBottom: '0px'}} value={this.state.value} onChange = {this.handleChange} id="first_name2" type="text" className="text"/>
+                        <input placeholder = "Нужно ввести название"onKeyDown={this.handleyKey} style = {{backgroundColor: 'inherit', color: 'white', margin: '0px', padding: '0px', marginBottom: '0px'}} value={this.state.value} onChange = {this.handleChange} id="first_name2" type="text" className="text"/>
                     </div>
                     
                     <a className="waves-effect waves-light btn-large" onClick = {this.handleSearch}>Search</a>

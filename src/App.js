@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
-import Main from './components/layout/Main'
+import Main from './components/layout/Main';
+//import Background from './components/layout/Background';
 
 
 class App extends React.Component {
@@ -12,7 +13,9 @@ class App extends React.Component {
       <div>
         <Header/>
         <Main></Main>
-        <Footer/> 
+        <Footer/>
+        {/* <Background></Background> */}
+
       </div>
     )
   }

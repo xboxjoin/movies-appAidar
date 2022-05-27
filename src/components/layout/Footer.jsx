@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <>
-         <footer className="page-footer light-blue darken-4" style ={{width: '100%', height: '220px'}}>
+         <footer className="page-footer " style ={{boxShadow: '-2px 2px 43px 4px rgba(255, 255, 255, 0.05)', marginTop: '50px', borderRadius: '5px', width: '100%', height: '220px', position: 'relative', backgroundColor: 'inherit'}}>
           <div className="container">
             <div className="row">
               {/* <div className="col l6 s12"> */}

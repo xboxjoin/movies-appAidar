@@ -1,0 +1,38 @@
+.container1 {
+    min-height: 250px;
+}
+
+
+.movie {
+    min-height: 400px;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.card-image {
+    height: 400px;
+    align-items: center;
+    display: flex;
+}
+
+.activator {
+    object-fit: contain;
+}
+
+.container2 {
+    height: 70px;
+}
+
+.movie {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card-content {
+    padding: 0px;
+}
+
+.container2 p {
+    margin: 0px;
+}

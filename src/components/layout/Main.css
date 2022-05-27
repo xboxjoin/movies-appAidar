@@ -2,7 +2,7 @@
     border-radius: 10px;
     min-height: calc(100vh - 280px);
     width: 100%;
-    background-color: rgba(10, 137, 144, 0.056);
+    background-color: inherit;
     font-size: 18px;
     text-align: center;
   }
